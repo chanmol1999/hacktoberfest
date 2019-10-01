@@ -16,7 +16,7 @@ def draw_square(some_turtle):
 def draw_art():
     
     window = turtle.Screen();
-    window.bgcolor("pink")
+    window.bgcolor("blue")
     
     mike = turtle.Turtle()
     mike.shape("turtle")
@@ -29,8 +29,8 @@ def draw_art():
 
     ana = turtle.Turtle()
     ana.shape("arrow")
-    ana.color("blue")
-    ana.circle(100)
+    ana.color("black")
+    ana.circle(200)
 
     window.exitonclick()
 
