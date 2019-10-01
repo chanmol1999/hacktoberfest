@@ -13,4 +13,4 @@ Directions for creating a Pull Request
 
 6.Push the changes to origin and create a pull request to chanmol1999/hactoberfest - master.
 
-7.Use appropriate PR title while making pr.
+7.Use appropriate PR title while making a PR.
