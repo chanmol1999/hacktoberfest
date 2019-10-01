@@ -14,3 +14,7 @@ Directions for creating a Pull Request
 6.Push the changes to origin and create a pull request to chanmol1999/hactoberfest - master.
 
 7.Use appropriate PR title while making pr.
+
+8.You can also fork the repository and edit it online without cloning it incase you can't use git bash.
+
+9.Commit changes and create a pull request to chanmol11999/hactoberfest-master.
