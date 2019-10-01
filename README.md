@@ -7,7 +7,7 @@ Directions for creating a Pull Request
 
 3.Create a folder of your name in the cloned repository.
 
-4.Your folder can contain various cp algorithms as text files or you can include interesting stuff but random text files are not allowed.
+4.Your folder can contain various cp algorithms as text files or you can include other interesting stuff but random text files are not allowed.
 
 5.Add changes to staging area and commit them.
 
