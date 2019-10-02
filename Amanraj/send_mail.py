@@ -18,7 +18,7 @@ s = smtplib.SMTP('mail.iitp.ac.in', 587)
 s.starttls() 
 s.login("[EMAIL]", "[PASS]") 
 
-body = "[MESSAGE_BODY]"
+body = "[MESSAGES_BODY]"
 recipients = ["ARRAY_OF_RECIPIENTS"]
 
 msg = MIMEMultipart()
