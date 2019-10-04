@@ -1,0 +1,56 @@
+//Program 1 
+import java.util.*;
+class Goldbach//start of class
+{
+    void input()//start of input method
+    {
+        Scanner sc=new Scanner(System.in);
+        int l,u,count1=0,count2=0;
+        do{
+            System.out.println("ENTER THE LOWER AND UPPER RANGE");
+            l=sc.nextInt();
+            u=sc.nextInt();
+            if(l > u || l < 0 ||u < 0)
+            System.out.println("WRONG INPUT. ENTER AGAIN.");
+        }while(l  > u || l < 0 ||u < 0);
+        for(int n=l; n <= u;n++)
+        {
+            if(n % 2 == 0)
+            {
+                count2++;
+                if(count2== 1)
+                System.out.println("THE GOLDBACH NUMBERS ARE AS FOLLOW:");
+                for(int i=2;i <= (n/2);i++)
+                {                    
+                    if(isPrime(i) == true && isPrime(n-i) == true)
+                    {
+                        count1++;
+                        if(count1==1)
+                        System.out.println("PRIME PAIRS OF "+n+" ARE:\n"+i+", "+(n-i));
+                        else if(count1 > 1)
+                        System.out.println(i+", "+(n-i));
+                    }
+                }
+                count1=0;
+            }
+        }
+        System.out.println();
+    }//end of input method
+    boolean isPrime(int a)
+    {
+        for(int i=2;i <= (a/2);i++)
+        {
+            if(a % i==0)
+            return false;
+        }
+        return true;
+    }//end of isPrime method
+}//end of class Goldbach
+class Goldbach_Main
+{
+    public static void main(String args[])
+    {
+        Goldbach ob=new Goldbach();
+        ob.input();
+    }//end of main
+}//end of class Goldbach_Main
