@@ -2,6 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 # import xlrd 
+# import xlrd 
 
 
 # loc = ("C:\\Users\\user\\av.xlsx") 
