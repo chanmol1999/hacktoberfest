@@ -13,6 +13,14 @@ def draw_square(some_turtle):
         some_turtle.forward(100)
         some_turtle.right(90)
 
+#added draw_star method        
+def draw_star(some_turtle):
+  
+    for i in range(5):
+        some_turtle.forward(100)
+        some_turtle.right(144)
+        
+        
 def draw_art():
     
     window = turtle.Screen();
