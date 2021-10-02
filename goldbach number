@@ -1,6 +1,6 @@
 //Program 1 
 import java.util.*;
-class Goldbach//start of class
+class Goldbach //start of class
 {
     void input()//start of input method
     {
