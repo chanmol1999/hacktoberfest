@@ -16,3 +16,5 @@ Directions for creating a Pull Request
 7.Use appropriate PR title while making a PR.
 
 8.You can also create a PR by simply editing a file.
+
+## feel free to contribute! Thanks
