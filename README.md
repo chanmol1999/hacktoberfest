@@ -1,5 +1,5 @@
 # Hactoberfest
-Directions for creating a Pull Request
+Rules for creating a Pull Request
 
 1.Fork the repository.
 
